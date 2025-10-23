@@ -134,7 +134,7 @@ export const SITE_CONTENT: SiteContent = {
         "Responsive, accessibility-minded website aligned to brand guidelines; deployed with CI/CD.",
       linkPreview: "/",
       linkSource: "", // add repo if public
-      image: "/projects/cavu-architecture.png",
+      image: "/projects/cavu.png",
     },
   ],
 
