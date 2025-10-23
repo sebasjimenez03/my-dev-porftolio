@@ -110,7 +110,7 @@ export const SITE_CONTENT: SiteContent = {
         "Incident reporting web app with multilingual UI, Google Maps API, OAuth2, and REST microservices.",
       linkPreview: "/",
       linkSource: "", // add repo if public
-      image: "/projects/incident-reporter.png",
+      image: "/projects/iar-incident-map.png",
     },
     {
       name: "Dynamic KML Generator (PHP)",
