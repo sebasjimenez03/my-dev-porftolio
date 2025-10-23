@@ -1,8 +1,8 @@
 ---
-import type { HeroProps } from "@types";
-type Props = HeroProps;
+import type { TwoColProps } from "@types";
+type Props = TwoColProps;
 
-const { name, specialty, summary, email } = Astro.props;
+const { title, subtitle, description } = Astro.props;
 ---
 
 <section
@@ -14,23 +14,17 @@ const { name, specialty, summary, email } = Astro.props;
     <h1
       class="font-serif text-6xl sm:text-7xl md:text-8xl font-bold tracking-tightest"
     >
-      {name}
+      {title}
     </h1>
     <p
       class="font-serif text-3xl sm:text-4xl md:text-5xl font-semibold text-primary"
     >
-      {specialty}
+      {subtitle}
     </p>
     <p class="text-base md:text-lg text-neutral leading-relaxed">
-      {summary}
+      {description}
     </p>
 
-    <a
-      class="inline-block w-fit rounded-full bg-primary px-8 py-4 text-sm md:text-base font-medium text-white shadow-md hover:bg-primary/90 transition"
-      href={`mailto:${email}`}
-    >
-      Get in Touch
-    </a>
   </div>
 
   <!-- Right column: Image -->

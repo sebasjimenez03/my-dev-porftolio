@@ -6,7 +6,7 @@ export const SITE_CONFIG: SiteConfig = {
   description:
     "Full Stack & Front-End Developer based in Barcelona. I build performant, scalable web apps with Angular, Node.js, and GCP. 7+ years experience delivering dashboards, exports, and clean UX.",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg", // update path if needed
+  siteLogo: "/sebas-small.jpg", // update path if needed
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
@@ -25,8 +25,16 @@ export const SITE_CONTENT: SiteContent = {
     name: "Sebastián Jiménez",
     specialty: "Full Stack Developer · Front-End Specialist",
     summary:
-      "Software Engineer in Barcelona (remote/hybrid). I specialize in Angular (v9–17), Node.js and GCP, building modular, high-performance apps with great UX.",
+      "I specialize in Angular (v9–17), Node.js and GCP, building modular, high-performance apps with great UX.",
     email: "sebtec12@gmail.com",
+  },
+
+  twoCol: {
+    title: "Based in ",
+    subtitle: "Barcelona",
+    description:
+      "I am passionate about developing scalable web applications that prioritize user experience and performance. With expertise in Angular, Node.js, and cloud platforms like GCP, I deliver solutions that meet both business and user needs. My approach emphasizes clean code, modular architecture, and responsive design to ensure maintainability and adaptability in a rapidly evolving tech landscape.",
+    image: "/barcelona.jpg",
   },
 
   experience: [

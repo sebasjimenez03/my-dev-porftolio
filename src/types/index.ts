@@ -10,6 +10,7 @@ export interface SiteConfig extends HeaderProps {
 
 export interface SiteContent {
   hero: HeroProps;
+  twoCol: any;
   experience: ExperienceProps[];
   projects: ProjectProps[];
   about: AboutProps;
@@ -20,6 +21,13 @@ export interface HeroProps {
   specialty: string;
   summary: string;
   email: string;
+}
+
+export interface TwoColProps {
+  title: string;
+  subtitle: string;
+  description: string;
+  image: string;
 }
 
 export interface ExperienceProps {
