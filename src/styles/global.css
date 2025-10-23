@@ -50,4 +50,21 @@
       transform: translateY(0);
     }
   }
+
+
+  .hero {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url('/barcelona.jpg') center/cover no-repeat;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 }

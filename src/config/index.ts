@@ -6,7 +6,7 @@ export const SITE_CONFIG: SiteConfig = {
   description:
     "Full Stack & Front-End Developer based in Barcelona. I build performant, scalable web apps with Angular, Node.js, and GCP. 7+ years experience delivering dashboards, exports, and clean UX.",
   lang: "en",
-  siteLogo: "/sebastian-small.jpg", // update path if needed
+  siteLogo: "/alejandro-small.jpg", // update path if needed
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
@@ -154,6 +154,6 @@ I thrive in SCRUM teams and also ship fast in freelance settings—owning UX, pe
 - **Testing:** Jasmine, Karma, Cypress (basic)
 - **Methods/Tools:** Agile/SCRUM, Kanban, CI/CD, JIRA, Confluence, Notion, Figma, Postman, Chrome DevTools
     `,
-    image: "/sebastian-big.jpg", // update path if needed
+    image: "/alejandro-big.jpg", // update path if needed
   },
 };
