@@ -100,7 +100,7 @@ export const SITE_CONTENT: SiteContent = {
       name: "IAR-Med Exports (Rails)",
       summary:
         "CSV & PDF export modules with Prawn, optimized SQL, and background jobs for a wildlife rescue platform.",
-      linkPreview: "/",
+      linkPreview: "https://iarcr-med.app/",
       linkSource: "", // add repo if public
       image: "/projects/iar-med-exports.png",
     },
