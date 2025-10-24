@@ -36,7 +36,7 @@ export interface ExperienceProps {
   startDate: string;
   endDate: string;
   summary: string | string[];
-  stack?: string[];
+  stack: string[] | [];
 }
 
 export interface ProjectProps {

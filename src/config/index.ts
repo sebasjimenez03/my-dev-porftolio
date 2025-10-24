@@ -49,17 +49,7 @@ export const SITE_CONTENT: SiteContent = {
         "IAR Incident Report Map: multilingual UI (ES/EN), Google Maps API, OAuth2, and REST microservices.",
         "KML Generator (PHP): dynamic KML exports with geolocation/date/species filters for Google Earth/GIS.",
       ],
-      stack: [
-      "Angular 9",
-      "Ruby on Rails",
-      "PHP",
-      "Node.js",
-      "MySQL",
-      "PostgreSQL",
-      "Bootstrap",
-      "REST APIs",
-      "Google Maps API",
-      "Git/GitHub CI/CD"
+      stack: [ "Angular 9", "Ruby on Rails", "PHP", "Node.js", "MySQL", "PostgreSQL", "Bootstrap", "REST APIs", "Google Maps API", "Git/GitHub CI/CD"
     ]
     },
     {
@@ -70,8 +60,7 @@ export const SITE_CONTENT: SiteContent = {
       summary: [
         "Built a modular Angular webapp with PHP/MySQL backend and REST APIs for client document flows, notifications, and premium content.",
         "Integrated Shopify API for payments, Firebase for sync; secured and cached via Cloudflare; CI/CD with GitHub Actions.",
-        "Built a modular Angular dashboard CRM with PHP/MySQL backend and REST APIs.",
-        
+        "Built a modular Angular dashboard CRM with PHP/MySQL backend and REST APIs."
       ],
       stack: [
         "Angular 9", "PHP", "MySQL", "Shopify API", "Bootstrap", "Cloudflare","Workers","Hono", "Hostinger"
