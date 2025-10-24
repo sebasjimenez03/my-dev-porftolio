@@ -101,7 +101,8 @@ export const SITE_CONTENT: SiteContent = {
       summary:
         "CSV & PDF export modules with Prawn, optimized SQL, and background jobs for a wildlife rescue platform.",
       linkPreview: "https://iarcr-med.app/",
-      linkSource: "", // add repo if public
+      linkSource: "", // add repo if public,
+      ref: "iar-med-exports",
       image: "/projects/iar-med-exports.png",
     },
     {
