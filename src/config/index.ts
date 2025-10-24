@@ -98,6 +98,7 @@ export const SITE_CONTENT: SiteContent = {
       summary: [
         "Built a React Native + Expo mobile app; integrated Ethereum blockchain for payments and orders.",
       ],
+      stack: []
     },
     {
       company: "Logicalis @ Banco Santander — Madrid",
@@ -108,6 +109,7 @@ export const SITE_CONTENT: SiteContent = {
         "Provided technical support and database maintenance in a financial environment.",
         "Tools: Qlik Sense, Cognos, SpeechMiner, PowerCenter.",
       ],
+      stack: []
     },
   ],
 
