@@ -2,7 +2,7 @@
 /** Types */
 type Item = {
   label: string;
-  level: 1 | 2 | 3 | 4 | 5;
+  level: number;
   icon: string;
 };
 type Category = {
@@ -119,12 +119,15 @@ const Icon = ({ name }: { name: string }) => {
   }
 };
 
-const Dots = ({ level }: { level: Item["level"] }) => {
+const clamp = (n: number, min = 1, max = 5) => Math.min(max, Math.max(min, n));
+
+const Dots = ({ level }: { level: number }) => {
   const total = 5;
+  const v = clamp(level, 1, total);
   return (
     <div class="flex gap-1 ml-2">
       {Array.from({ length: total }).map((_, i) => (
-        <span class={`h-1.5 w-1.5 rounded-full ${i < level ? 'bg-primary' : 'bg-white/20'}`}></span>
+        <span class={`h-1.5 w-1.5 rounded-full ${i < v ? 'bg-primary' : 'bg-white/20'}`}></span>
       ))}
     </div>
   );
