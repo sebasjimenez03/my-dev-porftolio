@@ -25,7 +25,7 @@ export const SITE_CONTENT: SiteContent = {
     name: "Sebastián Jiménez",
     specialty: "Full Stack Developer · Front-End Specialist",
     summary:
-      "I specialize in Angular (v9–17), Node.js and GCP, building modular, high-performance apps with great UX.",
+      "I specialize in Angular, Node.js and GCP, building modular, high-performance apps with great UX.",
     email: "sebtec12@gmail.com",
   },
 
@@ -41,44 +41,60 @@ export const SITE_CONTENT: SiteContent = {
     {
       company: "IP Network S.A.",
       position: "Front-End & Full-Stack Developer (Remote)",
-      startDate: "Jun 2024",
-      endDate: "Oct 2025",
+      startDate: "Oct 2023",
+      endDate: "Today",
       summary: [
         "Delivered full-cycle web projects: custom dashboards, data export tools (CSV/PDF), and responsive corporate sites.",
         "IAR-Med: built CSV & PDF reporting for a wildlife rescue platform (Ruby on Rails, PostgreSQL, Prawn), with background jobs and optimized SQL for large datasets.",
-        "IAR Incident Report Platform: multilingual UI (ES/EN), Google Maps API, OAuth2, and REST microservices.",
+        "IAR Incident Report Map: multilingual UI (ES/EN), Google Maps API, OAuth2, and REST microservices.",
         "KML Generator (PHP): dynamic KML exports with geolocation/date/species filters for Google Earth/GIS.",
-        "VoyJaleas internal tools: Angular 9 admin dashboards, REST APIs, role-based auth; deployments on Hostinger, Cloudflare, and Vercel.",
-        "Stack: Angular 9, Ruby on Rails, PHP, Node.js, MySQL, PostgreSQL, Bootstrap, REST APIs, Google Maps API, Git/GitHub CI/CD, GCP.",
       ],
+      stack: [
+      "Angular 9",
+      "Ruby on Rails",
+      "PHP",
+      "Node.js",
+      "MySQL",
+      "PostgreSQL",
+      "Bootstrap",
+      "REST APIs",
+      "Google Maps API",
+      "Git/GitHub CI/CD"
+    ]
     },
     {
       company: "VoyJaleas (Digital Consulting Platform)",
       position: "Founder & Front-End Developer — Barcelona",
-      startDate: "Jan 2023",
-      endDate: "May 2024",
+      startDate: "Oct 2023",
+      endDate: "Aug 2024",
       summary: [
         "Built a modular Angular webapp with PHP/MySQL backend and REST APIs for client document flows, notifications, and premium content.",
         "Integrated Shopify API for payments, Firebase for sync; secured and cached via Cloudflare; CI/CD with GitHub Actions.",
-        "Stack: Angular 9, PHP, MySQL, Firebase, Shopify API, Bootstrap, Cloudflare, Hostinger.",
+        "Built a modular Angular dashboard CRM with PHP/MySQL backend and REST APIs.",
+        
       ],
+      stack: [
+        "Angular 9", "PHP", "MySQL", "Shopify API", "Bootstrap", "Cloudflare","Workers","Hono", "Hostinger"
+      ]
     },
     {
       company: "Sngular · BBVA — Madrid",
       position: "Front End Developer",
-      startDate: "2018",
-      endDate: "2023",
+      startDate: "Otc 2018",
+      endDate: "Sept 2023",
       summary: [
         "Developed the Global Outsourcing System (AngularJS, GCP), optimized components for production performance.",
         "Active in requirements, code reviews, and deployments within a SCRUM team using JIRA.",
-        "Stack: AngularJS, Node.js, Google Cloud Platform, Jenkins, SonarQube, JIRA.",
       ],
+      stack: [
+        "AngularJS", "Java","Bitbucket", "Google Cloud Platform", "Jenkins", "SonarQube", "JIRA", "Agile/SCRUM"
+      ]
     },
     {
       company: "Bitz — Amsterdam (Remote)",
       position: "Junior Full Stack Developer",
       startDate: "2018",
-      endDate: "2018",
+      endDate: "",
       summary: [
         "Built a React Native + Expo mobile app; integrated Ethereum blockchain for payments and orders.",
       ],
@@ -87,7 +103,7 @@ export const SITE_CONTENT: SiteContent = {
       company: "Logicalis @ Banco Santander — Madrid",
       position: "Business Intelligence Administrator",
       startDate: "2017",
-      endDate: "2017",
+      endDate: "",
       summary: [
         "Provided technical support and database maintenance in a financial environment.",
         "Tools: Qlik Sense, Cognos, SpeechMiner, PowerCenter.",
